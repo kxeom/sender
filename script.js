@@ -8,7 +8,7 @@ function Send(){
     
     Email.send({
       SecureToken: "61e09161-b4cc-45fe-9146-007cbbee33ec",
-      From: "zek@666.id",
+      From: "akira@pwned.org",
       To: to.value,
       Subject: subject.value,
       Body: body.value,
