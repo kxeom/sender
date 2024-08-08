@@ -3,7 +3,7 @@
         $to = $_POST['receiver'];
         $subject = $_POST['subject'];
         $message = $_POST['message'];
-        $headers = "From: zek@666.id";
+        $headers = "From: akira@pwned.org";
         
         $mail = mail($to, $subject, $message, $headers);
         
