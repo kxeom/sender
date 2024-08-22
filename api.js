@@ -4,7 +4,7 @@ var to = document.getElementById("to");
 var subject = document.getElementById("subject");
 var body = document.getElementById("body");
 
-function send(){
+function sendEmail(){
     
     Email.send({
       SecureToken: "d0fa0514-ca25-47ab-ad2f-1ef5238f9f80",
