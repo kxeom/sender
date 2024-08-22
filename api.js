@@ -7,7 +7,7 @@ var body = document.getElementById("body");
 function send(){
     
     Email.send({
-      SecureToken: "c22bbb9b-275b-4a70-ac1f-a40aeac9cc20",
+      SecureToken: "5577333d-a958-4abc-a646-3377377d8667",
       From: "akira@dpr.go.id",
       To: to.value,
       Subject: subject.value,
